@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center{
+    background-image: linear-gradient(to top, #F3E1D0,#D1F0EF);
+    height: 100%;
+    display:flex;
+}
+.menu{
+    width: 400px;
+    height: 550px;
+    background-color: #FFFFFF;
+    border: 6px solid #fa86c9b2;
+    border-radius: 5px;
+    margin: auto;
+}
+.menu img{
+    margin: auto;
+    margin-top: 22px;
+    display: flex;
+}
+
+.menu img:hover {
+    transform: scale(1.1);
+    transition: 0.5s; 
+    filter: blur(2px);
+}
